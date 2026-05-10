@@ -9,7 +9,7 @@ The solution enables business stakeholders to monitor KPIs, identify growth oppo
 
 This Power BI dashboard provides end-to-end business analytics across multiple operational areas including Sales, Customer Insights, Inventory Management, Customer Feedback, and Marketing Performance.
 
-The dashboard was developed using Power BI, DAX, Power Query, and Excel-based datasets to simulate real-world quick-commerce operations similar to Blinkit / Instamart business models.
+The dashboard was developed using Power BI, SQL, DAX, and Power Query to simulate real-world quick-commerce operations similar to Blinkit / Instamart business models.
 
 ---
 
@@ -29,8 +29,8 @@ The dashboard was developed using Power BI, DAX, Power Query, and Excel-based da
 
 # ⚙️ Solution Architecture
 
-- 📂 Excel-based dataset integration
-- ⚡ Power Query for ETL and data transformation
+- 🗄 SQL-based data extraction and transformation
+- ⚡ Power Query for ETL and data cleaning
 - 🧩 Star schema data modeling
 - 🧠 Dynamic DAX calculations for KPI generation
 - 📊 Interactive dashboard navigation using buttons & slicers
@@ -156,8 +156,8 @@ The dashboard was developed using Power BI, DAX, Power Query, and Excel-based da
 - 🟡 Microsoft Power BI
 - 🔵 DAX (Data Analysis Expressions)
 - ⚙️ Power Query (ETL)
+- 🗄 SQL
 - 🧩 Data Modeling
-- 📊 Excel
 - 📈 KPI Visualization Techniques
 
 ---
@@ -199,6 +199,10 @@ Drools-PowerBI-Dashboard/
 │
 ├── Drools Dashboard.pbix
 │
+├── SQL/
+│   ├── Drools_project.sql
+│   └── Drools_project_Inventory.sql
+│
 ├── Screenshots/
 │   ├── Home.jpg
 │   ├── Sales.jpg
@@ -214,18 +218,20 @@ Drools-PowerBI-Dashboard/
 
 # 🔄 Dashboard Workflow
 
-1. Load business datasets into Power BI
-2. Perform data cleaning using Power Query
-3. Build relationships using data modeling
-4. Create DAX measures and KPIs
-5. Design interactive dashboard pages
-6. Analyze business insights using slicers & visuals
+1. Extract and prepare data using SQL
+2. Load transformed datasets into Power BI
+3. Perform additional cleaning using Power Query
+4. Build relationships using data modeling
+5. Create DAX measures and KPIs
+6. Design interactive dashboard pages
+7. Analyze business insights using slicers & visuals
 
 ---
 
 # 📚 Learning Outcomes
 
 - 🧠 Built advanced DAX calculations
+- 🗄 Improved SQL querying and data transformation skills
 - 📊 Designed interactive business dashboards
 - 🧩 Implemented analytical data modeling
 - ⚙️ Developed KPI-driven reporting solutions
@@ -247,4 +253,3 @@ No confidential or real business data is included.
 
 - 💼 LinkedIn: https://linkedin.com/in/ajay-pal-95a96510b
 - 📧 Email: ajaykumarpal1993@gmail.com
-```
